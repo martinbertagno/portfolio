@@ -2947,7 +2947,7 @@ const MES_MAP={ENE:0,FEB:1,MAR:2,ABR:3,MAY:4,JUN:5,JUL:6,AGO:7,SEP:8,OCT:9,NOV:1
 const WEEKDAY_KEY={1:'LU',2:'MA',3:'MI',4:'JU',5:'VI',6:'SA',0:'DO'};
 
 // ---------- Storage helpers ----------
-const LS_PREFIX='dicva_dashboard_v1_';
+const LS_PREFIX='portfolio_demo_v1_'; // demo: almacenamiento separado del tablero real
 function hasClaudeStorage(){ return typeof window.storage!=='undefined' && window.storage!==null; }
 function hasLocalStorage(){
   try{ const k='__ls_test__'; localStorage.setItem(k,'1'); localStorage.removeItem(k); return true; }
